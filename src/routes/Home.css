@@ -1,0 +1,30 @@
+.contenedor img {
+  width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+  display: block; /* Elimina espacios innecesarios debajo de la imagen */
+  object-fit: cover; /* Ajusta la imagen manteniendo la relación de aspecto */
+}
+      
+.container {
+max-width: 800px;
+margin: 0 auto;
+background-color: linear-gradient(90deg, rgb(22, 22, 17) 0%, rgb(240, 10, 10) 100%);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2, h3 {
+color: #fa1818;
+}
+
+p {
+color: #000000;
+margin-bottom: 20px;
+}
+  
+a {
+text-align: center;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0px;
+}

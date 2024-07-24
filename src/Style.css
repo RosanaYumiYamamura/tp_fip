@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(19, 19, 18);
+}
+
+#error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+/*-------*/
+
+body {
+    font-family: sans-serif;
+    background-image: url(/public/fruits.jpg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background: linear-gradient(90deg, rgb(22, 22, 17) 0%, rgb(240, 10, 10) 100%);
+    color: #fff; /* Color de texto blanco */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Centrar contenido */
+}
+
+.social-link {
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.social-link a {
+    display: inline-block;
+    padding: 10px 20px; /* Espaciado dentro del enlace */
+    background-color: #fa0000; /* Color de fondo para enlaces */
+    text-decoration: none; /* Sin subrayado */
+    color: #fff; /* Color del texto */
+    margin-right: 10px; /* Espaciado derecho entre enlaces */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.social-link a:hover {
+    background-color: #fbff05; /* Color de fondo al pasar el ratón */
+}

@@ -1,0 +1,49 @@
+
+body {
+  font-family: sans-serif;
+  background-image: url(/public/fruits.jpg);
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Centra el texto dentro del contenedor principal */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.thank-you {
+  color: green;
+}
+
+.form-container {
+  margin-top: 20px; /* Añade un margen superior para separar del contenido anterior */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos del formulario horizontalmente */
+}
+
+.contact-form input, .contact-form select {
+  margin-bottom: 10px;
+  width: 100%; /* Ajusta el ancho de los inputs y select al 100% del contenedor */
+  max-width: 300px; /* Limita el ancho máximo para que no se extiendan demasiado */
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 100%; /* Ajusta el ancho del botón al 100% del contenedor */
+  max-width: 300px; /* Limita el ancho máximo para que no se extienda demasiado */
+  margin-top: 10px; /* Añade un espacio superior al botón */
+}
