@@ -5,7 +5,7 @@ export default function AddTodo({ onAddTodo }) {
   return (
     <>
       <input
-        placeholder="Añadir tarea"
+        placeholder="Añadir Recetas"
         value={title}
         onChange={e => setTitle(e.target.value)}
       />

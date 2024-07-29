@@ -1,5 +1,3 @@
-// src/routes/chat.js
-
 export function createConnection(serverUrl, roomId) {
     return {
       connect() {

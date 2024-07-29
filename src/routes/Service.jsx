@@ -68,6 +68,7 @@ export default function Service() {
                 <option value="Menú personalizado">Menú personalizado</option>
                 <option value="Suscripción mensual">Suscripción mensual</option>
                 <option value="Taller Online">Taller Online</option>
+                <option value="Servicio de catering">Servicio de catering</option>
                 <option value="Asesoramiento Nutricional">Asesoramiento Nutricional</option>
                  </select>
                 </label>

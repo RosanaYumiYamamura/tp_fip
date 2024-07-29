@@ -33,7 +33,7 @@ body {
 .footer {
     background: linear-gradient(90deg, rgb(22, 22, 17) 0%, rgb(240, 10, 10) 100%);
     color: #fff; /* Color de texto blanco */
-    padding: 20px 0; /* Espaciado interno */
+    padding: 5px 0; /* Espaciado interno */
     text-align: center; /* Centrar contenido */
 }
 
